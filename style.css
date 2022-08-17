@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width:100%;
+    background: linear-gradient(to top,rgba(0,0,0,0.5)50% rgba(0,0,0,0.5)50%);
+    background-image: url(/Nice-Black-Background-Photo-HD-Free.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll;
+    height:109vh;
+
+}
+.navbar{
+    width:1200px;
+    height: 75px;
+    margin: auto;
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+
+}
+.logo{
+    color: orangered;
+    font-size: 35px;
+ font-family: arial;
+    padding-left: 20px;
+    padding-top: 10px;  
+    float: left;
+    margin-top: 5px;
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 60px;
+    margin-top: 30px;
+    font-size: 14px;
+}
+ul li a{
+    text-decoration: none;
+    color:white;
+    font-family :arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;   
+}
+ul li a:hover
+{
+    color:pink;
+}
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+.srch{
+    font-family: 'Times New Roman', Times,;
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid white;
+    margin-top: 13px;
+    color: skyblue;
+    font-size: 16px;
+    float:left;
+    padding: 10px;
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    background: orangered;
+    margin-top: 13px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    border: 1px solid white;
+}
+.content{
+    width:500px;
+    height: auto;
+    margin: auto;
+    color:#fff;
+    position: relative;
+    padding-top: 100px;
+    color: orangeredx;
+}
+.content .par{
+    padding-top: 10px;
+    padding-bottom: 125px;
+    font-family: arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+    text-align: center;
+    color: rgb(15, 240, 34);
+    
+
+}
+.content h1{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top:30%;
+    letter-spacing: 2px;
+}
+
+
